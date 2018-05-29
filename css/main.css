@@ -1,0 +1,95 @@
+*{
+    font-family: 'Share Tech Mono', monospace;
+}
+
+html, body {
+    height: 100%;
+    background-color: #FF5D43;    
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content h1 {
+    font-size: 2em;
+}
+
+.card {
+    width: 66%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.row {
+    width: auto;
+}
+
+.separator {
+    width: 100%;
+    display: block;
+    height: 1px;
+    border: 0;
+    margin: 1em 0;
+    padding: 0; 
+    border-top: 1px solid #FF5D43;
+}
+
+.social-networks {
+    margin-top: 20px;
+    max-width: 350px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social-networks ul {
+    list-style: none;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px;
+    border: solid 4px #FF5D43;
+    border-top: solid 8px #FF5D43;
+    border-bottom: solid 8px #FF5D43;
+}
+
+.fab{
+    color: #FF5D43;
+    font-size: 20px;
+}
